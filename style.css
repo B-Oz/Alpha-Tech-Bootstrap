@@ -24,3 +24,49 @@
   position: relative;
   top: 30px;
 }
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.float-md-start {
+  float: left !important;
+}
+
+.product-img {
+  border-radius: 10%;
+  border: 2px solid black;
+}
+
+.team img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+.circle-team {
+  border-radius: 50% !important;
+}
+.team a:hover {
+  color: #dc3545;
+  transform: scale(1.1);
+}
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+.col {
+  vertical-align: middle;
+}
+.col img {
+  width: 150px;
+}
+
+.col img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
